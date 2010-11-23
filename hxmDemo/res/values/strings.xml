@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+/*
+ * Copyright (C) 2010 Pye Brook Company, Inc.
+ *               http://www.pyebrook.com
+ *               info@pyebrook.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *
+ * This software uses information from the document
+ *
+ *     'Bluetooth HXM API Guide 2010-07-22'
+ *
+ * which is Copyright (C) Zephyr Technology, and used with the permission
+ * of the company. Information on Zephyr Technology products and how to 
+ * obtain the Bluetooth HXM API Guide can be found on the Zephyr
+ * Technology Corporation website at
+ * 
+ *      http://www.zephyr-technology.com
+ * 
+ *
+ */
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="hxmDemoAppName">Zephyr HxM BT Demo by Pye Brook Company, Inc.</string>
+    <string name="notConnected">You are not connected to a Zephyr HxM</string>
+    <string name="btNotEnabled">Bluetooth not enabled.</string>
+    <string name="connecting">connecting...</string>
+    <string name="connectedTo">connected: </string>
+    <string name="initializing">initializing</string>
+    <string name="nonePaired">No Zephyr HxM devices have been paired?</string>
+    <string name="noBluetooth">No Bluetooth?</string>
+    
+    
+    <!--
+    	Some identifiers used to pass information around our application 
+    	Defining them within this resource ensures that each value is unique 
+    	and allows us to associate a human readable string to use when
+    	logging or displaying debugging and error messages    	
+    -->
+    
+    <string name="HXM_SERVICE_MSG_STATE">MESSAGE_STATE_CHANGE: message from HxM service indicating that the state of the service has been updated, and may have changed</string>
+    <string name="HXM_SERVICE_MSG_READ">HXM_SERVICE_MSG_READ: message from HxM service with data read from the device</string>
+    <string name="HXM_SERVICE_MSG_DEVICE_NAME">HXM_SERVICE_MSG_DEVICE_NAME: message from HxM service indicating the name of the device that a connection is associated with</string>
+    <string name="HXM_SERVICE_MSG_TOAST">HXM_SERVICE_MSG_TOAST: message from HxM service requesting a toast be shown to the user</string>
+        
+    
+    <string name="HXM_SERVICE_RESTING">HXM_SERVICE_RESTING: HxM service is at rest</string>
+    <string name="HXM_SERVICE_CONNECTING">HXM_SERIVICE_CONNECTING: HxM service is trying to connect to an HxM</string>
+    <string name="HXM_SERVICE_CONNECTED">HXM_SERVICE_CONNECTED: HxM service is connected to a HxM</string>
+
+
+
+    
+</resources>
